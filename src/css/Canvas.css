@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+#canvas {
+  background: linear-gradient(to bottom, #0000ff 0%, #66ffcc 100%);
+  /* background: linear-gradient(to bottom, #0099ff 0%, #ccffff 100%); */
+
+}
+.control_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -2rem;
+}
+
+.control_div p {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+}
+.App canvas {
+  flex: 0.8;
+}
+
+.icon_div {
+  margin-bottom: 0.5rem;
+  margin-top: -0.5rem;
+}
+.icon_div i {
+  font-size: 25px;
+  margin: 0 10px 0 10px;
+  cursor: pointer;
+}
+
